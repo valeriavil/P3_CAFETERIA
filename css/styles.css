@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.fondo {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #ff4da6, #ff99cc);
+}
+
+.app {                         
+    width: 400px;
+    background: #fff0f6;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 15px 25px rgba(0,0,0,0.3);
+}
+
+/* Encabezado rosa */
+.header {
+    background: linear-gradient(#ff4da6, #cc2f7a);
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Alumno */
+.alumno {
+    background: #ffd6e8;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Botones */
+.menu {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.menu button {
+    background: #cc2f7a;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 15px;
+}
+
+/* Secciones */
+.seccion {
+    display: none;
+    padding: 15px;
+}
+
+.seccion.activa {
+    display: block;
+}
+
+/* Imagen */
+.seccion img {
+    width: 100%;
+    border-radius: 12px;
+    margin-bottom: 10px;
+}
+
+/* Horario */
+.horario {
+    background: #ffe6f0;
+    border-left: 4px solid #cc2f7a;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+/* Barra inferior */
+.barra {
+    background: #cc2f7a;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    font-size: 20px;
+}
